@@ -1,32 +1,32 @@
-// let arr = []
+let arr = []
 
-// document.getElementById('addBtn').addEventListener('click', () => {
-//     let std_name = document.getElementsByClassName('stdName')[0].value
-//     let std_sur = document.getElementsByClassName('stdSureName')[0].value
+document.getElementById('addBtn').addEventListener('click', () => {
+    let std_name = document.getElementsByClassName('stdName')[0].value
+    let std_sur = document.getElementsByClassName('stdSureName')[0].value
     
-//     let ol = document.getElementsByClassName('StudentWrapper')[0]
-//     let std_list = document.createElement('li')
+    let ol = document.getElementsByClassName('StudentWrapper')[0]
+    let std_list = document.createElement('li')
 
-//     let btn = document.createElement('button')
+    let btn = document.createElement('button')
 
-//     let std_obj = {
-//         name: std_name,
-//         surname: std_sur,
-//     }
-//     arr.push(std_obj)
+    let std_obj = {
+        name: std_name,
+        surname: std_sur,
+    }
+    arr.push(std_obj)
     
-//     std_list.innerHTML = `${std_name} ${std_sur}`
+    std_list.innerHTML = `${std_name} ${std_sur}`
 
-//     ol.appendChild(std_list)
+    ol.appendChild(std_list)
     
-//     std_list.appendChild(btn)
+    std_list.appendChild(btn)
 
-//     btn.innerHTML = 'Удалить'
+    btn.innerHTML = 'Удалить'
 
-//     btn.addEventListener('click', () => {
-//         std_list.remove()
-//     })
-// })
+    btn.addEventListener('click', () => {
+        std_list.remove()
+    })
+})
 
 let cat = {
     name: 'murka',
