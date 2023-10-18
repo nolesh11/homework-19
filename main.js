@@ -81,18 +81,24 @@
 // console.log(`Название фрукта: ${fruits.name}, Цвет фрукта: ${fruits.color}, Вкус: ${fruits.taste}, Колтчество: ${fruits.amount}.`);
 
 
-async function getChuckNorrisJoke () {
-    try {
-        const url = "https://api.chucknorris.io/jokes/random";
-        const response = await fetch(url);
+// async function getChuckNorrisJoke () {
+//     try {
+//         const url = 'https://api.chucknorris.io/jokes/random'
+//         const response = await fetch(url)
 
-        const data = await response.json();
-        const joke = data.value;
+//         const data = await response.json()
+//         const joke = data.value
+        
+//         console.log(joke)
 
-        console.log(joke);
-    } catch(error) {
-        console.log('Произошла ошибка');
-    }
-} 
 
-getChuckNorrisJoke();
+//         // let div = document.createElement('div')
+//         // document.body.appendChild(div)
+//         // div.innerHTML = joke
+//     } catch(error) {
+//         console.log('Произошла ошибка')
+//     }
+// } 
+
+// getChuckNorrisJoke()
+
